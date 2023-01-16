@@ -1,4 +1,4 @@
-<?php
+
 
 /**
  * Exo 1
@@ -10,7 +10,28 @@
  */
 
 // TODO Votre code ici.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exo 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+</head>
+
+<body>
+    <ul>
+        <li><a href="exo1.php?iteration=10">Lien 1</a></li>
+    </ul>
+</body>
+
+</html>
+
+<?php
+
+echo "<br><br>";
+
+?>
 
 /**
  * Exo 2
@@ -20,7 +41,22 @@
  * Pour chaque lien, le paramètre iteration prendra la valeur actuelle de votre variable de boucle ( $i par exemple ).
  */
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exo 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+</head>
+
+<body>
+    <ul>
+        <li><a href="exo2.php?iteration=10">Lien 2</a></li>
+    </ul>
+</body>
+
+</html>
 
 
 
